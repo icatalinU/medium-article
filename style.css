@@ -1,0 +1,51 @@
+.banner {
+
+  background-image: url("/medium-article/pictures/artyom-korshunov-_JiySbznQdU-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px ;
+
+}
+h2{
+  text-align: center;
+}
+
+#lambo {
+  width:500px;
+  height: auto;
+}
+ p {padding: 20px;
+
+  border-radius: 10px; /* Rounded corners */
+
+  color: #000000; /* Dark text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 18px; /* Font size */
+  line-height: 1.6; /* Line height */
+  text-align: justify; /* Justify text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: box-shadow 0.3s; /* Smooth transition */
+
+ }
+ p:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+ }
+
+ @media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 992px) {
+  .banner {
+    width: 700px;
+  }
+}
+
+@media(max-width: 992px) {
+  .containerlambo {
+    width: 700px;
+    align-self: center;
+  }
+}
